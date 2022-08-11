@@ -1,0 +1,91 @@
+:root {
+  --lgreen: #84c091;
+}
+
+body {
+  background-color: #51545f;
+  overflow: hidden;
+}
+
+#s15-left {
+  margin-right: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background-color: var(--lgreen);
+}
+
+#s15-left-wrapper,
+.container {
+  padding: 1rem;
+}
+
+#s15-toolbar {
+  display: flex;
+  column-gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.s15-toolbar-group {
+  display: flex;
+  column-gap: 0.4rem;
+}
+
+#s15-center {
+  display: flex;
+  gap: 10px;
+}
+
+#s15-left-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 5rem;
+  gap: 8px;
+}
+
+#s15-field-wrapper {
+  width: 1100px;
+}
+
+.s15-btn {
+  background-color: #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0.3rem;
+  width: 3rem;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.s15-strat-selector {
+  background-color: var(--lgreen);
+  padding: 0.6rem;
+  padding-left: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 0 3rem 3rem 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: large;
+  cursor: pointer;
+  user-select: none;
+  width: 3rem;
+}
+
+.s15-strat-selector.selected {
+  background-color: #da58e6;
+  border: #000;
+  border-style: solid;
+  border-width: 2px;
+  width: 4rem;
+}
+
+.s15-player {
+  font-size: 1.45rem;
+  filter: saturate(0%) brightness(5%) contrast(200%);
+}
+
+.s15-txt {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.s15-ball {
+  font-size: 1.3rem;
+}
